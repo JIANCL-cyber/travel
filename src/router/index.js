@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Homej from '@/components/homej/Homej.vue'
+import Homej from '@/pages/homej/Homej.vue'
 
 Vue.use(Router)
 
