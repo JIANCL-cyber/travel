@@ -4,8 +4,7 @@
       tag="div"
       to="/"
       class="header-abs"
-      v-show="showAbs"
-    >
+      v-show="showAbs">
       <div class="header-abs-back iconfont">&#xe611;</div>
     </router-link>
     <div
@@ -70,6 +69,7 @@ export default {
       color #fff
       font-size .4rem
   .header-fixed
+    z-index 2
     position fixed
     top 0
     left 0
